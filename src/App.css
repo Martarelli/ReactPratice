@@ -33,3 +33,37 @@ html, body {
     font-size: 1.25rem;
     font-weight: 500;
 }
+
+.container form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container form .inputContainer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container form .inputContainer label {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    padding-bottom: 0.5rem;
+}
+
+.container form .inputContainer input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+
+    width: 520px;
+    height: 50px;
+    
+    border: 1px solid #5C73DB;
+    border-radius: 0.75rem;
+    
+}
