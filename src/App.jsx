@@ -1,5 +1,9 @@
-import logo from './assets/logo.png'
-import './App.css'
+import logo from './assets/logo.png';
+import './App.css';
+// import { collection, query, orderBy, onSnapshot } from 'firebase/firestore';
+// import { db } from './firebase';
+
+
 export function App() {
 
   return (
