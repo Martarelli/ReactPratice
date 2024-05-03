@@ -1,4 +1,5 @@
 import logo from './assets/logo.png'
+import arrow from './assets/arrow.png'
 import './App.css'
 export function App() {
 
@@ -31,6 +32,7 @@ export function App() {
 
         <button className="button">
           Se Conectar
+          <img src={arrow} alt="arrow" />
         </button>
 
         <div className="footer">
